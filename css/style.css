@@ -44,12 +44,10 @@ nav{
 
 
 .heroImg{
-    height:600px;
-    padding:25px;
+    padding: 25px 0px;
 }
 
 .content{
-    width:1000px;
     margin: 0 auto;
 }
 
@@ -74,7 +72,8 @@ footer{
 }
 
 .mySkills{
-    padding-bottom:50px;
+    padding: 25px 0px;
+
 
 }
 
@@ -198,4 +197,81 @@ footer{
                             'myArea2'
                             'myDescription2';
     }
+}
+
+
+.photo{
+    transition: all .5s;
+}
+
+.flexContainerImage{
+    transition: all .5s;
+
+}
+
+.hover{
+    transition: all .5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#downloadresume{
+    transition: all 0.25s;
+}
+
+.hoverbutton{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    transition: all 0.25s;
+    border-color: black;
+}
+
+.workdGridButton{
+    transition: all 0.25s;
+}
+
+.hoverworkdGridButton{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    transition: all 0.25s;
+    border-color: black;
+}
+
+.viewallprojects{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    transition: all 0.25s;
+}
+
+.hoverviewallprojects{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    transition: all 0.25s;
+    border-color: black;
+}
+
+
+.workGridDivImage{
+    transition: all .5s;
+
+}
+
+.headerli{
+    
+    transition: all .5s;
+
+}
+
+.footerli{
+    transition: all .5s;
+
+}
+
+.img-logo{
+    transition: all .5s;
+
 }
