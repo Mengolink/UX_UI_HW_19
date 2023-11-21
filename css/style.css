@@ -1,0 +1,201 @@
+.inline-block{
+    display:inline-block;
+    vertical-align: top;
+}
+header{
+    background-color: #373738;
+
+}
+.logo{
+    width:23%;
+    padding:1%;
+}
+
+.img-logo{
+    width:50px;
+}
+
+.headerli{
+    padding:1%;
+    color:white;
+}
+
+.content{
+    text-align: center;
+    background-color:pink;
+    padding:20px;
+}
+.button{
+    background-color:lightyellow;
+    padding:10px;
+}
+
+
+nav{
+    width:72%;
+    padding:1%;
+}
+
+.ul{
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+}
+
+
+.heroImg{
+    height:600px;
+    padding:25px;
+}
+
+.content{
+    width:1000px;
+    margin: 0 auto;
+}
+
+
+.photo{
+    width:200px;
+}
+
+
+footer{
+    background-color: #373738;
+}
+
+.footerul{
+    padding:1%;
+
+}
+
+.footerli{
+    padding:1%;
+    color: #FFFFFF;
+}
+
+.mySkills{
+    padding-bottom:50px;
+
+}
+
+.mySkillsh1{
+    text-align: center;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    padding:2%;
+    background-color:aliceblue;
+}
+
+.flexContainerDiv{
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    align-items:center;
+}
+.flexContainerImageDiv{
+    width:300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #fefefe
+}
+.flexContainerImage{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flexContainerp{
+    text-align: center;
+}
+
+.flexContainerul{
+    margin-top:0px;
+}
+
+.myWork{
+    background-color: beige;
+    padding:50px;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-areas: 'myArea myDescription' 
+                            'myArea2 myDescription2';
+    padding: 0px 0px;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.workGridDivImage{
+    width: 100%;
+}
+
+.workGridDiv{
+    grid-area: myArea;
+    width:300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: lightpink
+    
+}
+
+.workGridDescription{
+    grid-area: myDescription
+}
+
+.workGridDiv2{
+    grid-area: myArea2;
+    width:300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: lightpink;
+
+}
+
+.workGridDescription2{
+    grid-area: myDescription2
+}
+
+.workGridP{
+    text-align: left;
+}
+
+.workdGridButton{
+    padding:10px 20px;
+    background-color: black;
+    color:white;
+}
+
+
+.viewallprojects{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .flexContainer{
+        flex-direction: column-reverse;
+
+    }
+    .flexContainerDiv{
+        width:100%;
+    }
+
+    .workGrid{
+        grid-template-areas: 'myArea ' 
+                            'myDescription'
+                            'myArea2'
+                            'myDescription2';
+    }
+}
